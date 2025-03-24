@@ -14,8 +14,8 @@ public class Sports {
     @Column(name = "sport_name")
     private String sportName;
 
-    @OneToMany(mappedBy = "sports")
-    private List<Leagues> leagues;
+//    @OneToMany(mappedBy = "sports")
+//    private List<Leagues> leagues;
 
 
 
@@ -42,13 +42,13 @@ public class Sports {
         this.sportName = sportName;
     }
 
-    public List<Leagues> getLeagues() {
-        return leagues;
-    }
-
-    public void setLeagues(List<Leagues> leagues) {
-        this.leagues = leagues;
-    }
+//    public List<Leagues> getLeagues() {
+//        return leagues;
+//    }
+//
+//    public void setLeagues(List<Leagues> leagues) {
+//        this.leagues = leagues;
+//    }
 
     @Override
     public String toString() {

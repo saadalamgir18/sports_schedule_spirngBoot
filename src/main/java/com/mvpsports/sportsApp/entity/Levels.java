@@ -17,8 +17,8 @@ public class Levels {
     private String levelName;
 
 
-    @OneToMany(mappedBy = "levels")
-    private List<Leagues> leagues;
+//    @OneToMany(mappedBy = "levels")
+//    private List<Leagues> leagues;
 
 
     public Levels() {
@@ -46,13 +46,13 @@ public class Levels {
     }
 
 
-    public List<Leagues> getLeagues() {
-        return leagues;
-    }
-
-    public void setLeagues(List<Leagues> leagues) {
-        this.leagues = leagues;
-    }
+//    public List<Leagues> getLeagues() {
+//        return leagues;
+//    }
+//
+//    public void setLeagues(List<Leagues> leagues) {
+//        this.leagues = leagues;
+//    }
 
     @Override
     public String toString() {

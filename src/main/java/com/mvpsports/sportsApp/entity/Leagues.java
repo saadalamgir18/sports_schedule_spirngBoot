@@ -13,12 +13,11 @@ public class Leagues {
     private String leagueName;
 
 
-    @ManyToOne(fetch=FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "sport_id")
     private Sports sports;
 
-
-    @ManyToOne(fetch=FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "level_id")
     private Levels levels;
 
